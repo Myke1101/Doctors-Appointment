@@ -1,0 +1,56 @@
+nav#mainNav {
+    background: #004643;
+    color: white !important;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #abd1c6;
+}
+body{
+    background-color: #abd1c6;
+    color: white;
+}
+.btn-primary {
+    color: #001e1d;
+    background-color: #f9bc60;
+    border-color: #ffffff;
+}
+.card-body{
+    background-color: #004643;
+}
+.navResponsive{
+    background-color: #001e1d;
+}
+.mb-4, .my-4 {
+    color: #001e1d;
+}
+
+.nav-logo {
+    font-weight: 700; /* Adjust the font weight as needed */
+    font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+/* Add the following CSS to set the size of the logo within .nav-logo */
+.nav-logo img {
+    width: 50px; /* Set the desired width for your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space to the right of the logo */
+}
+h2, .h2 {
+    color: #004643;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: #f9bc60;
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
