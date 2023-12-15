@@ -1,4 +1,15 @@
+<?php
+session_start();
 
+// Check if the user is not logged in
+if (!isset($_SESSION["login_id"])) {
+    // Redirect to the login page
+    header("Location: login1.php");
+    exit();
+}
+
+// The rest of your index.php content goes here
+?>
 <!DOCTYPE html>
 <html lang="en">
     <?php
